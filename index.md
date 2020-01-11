@@ -1,5 +1,4 @@
 <html>
-<title>Page Title</title>
 <head>
 <style>
 body {
