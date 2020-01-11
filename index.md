@@ -1,6 +1,6 @@
 <html>
+<title>Page Title</title>
 <head>
-<title>123</title>
 <style>
 body {
   background-color: pink;
