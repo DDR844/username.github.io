@@ -1,37 +1,68 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+body {
+  background-color: pink;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-You can use the [editor on GitHub](https://github.com/DDR844/username.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+</style>
+</head>
+<body onload="time()">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<p id="showbox" ></p>
+<script>
+  function time(){
+  var NowDate=new Date();
+  var y = NowDate.getFullYear();
+  var months ="01,02,03,04,05,06,07,08,09,10,11,12".split(",");
+  var mm = months[NowDate.getMonth()];
+  var d = NowDate.getDate();
+  var h=NowDate.getHours() ;
+  var m=NowDate.getMinutes();
+  var s=NowDate.getSeconds();
+  document.getElementById ('showbox') .innerHTML = y+"/"+mm+"/"+d+" "+h+":"+m+":"+s;
+  setTimeout('time()',1);
+  console.log(mm);
+  }
+  </script>
+<h1 style=" color: white;
+text-shadow: 2px 2px 4px #000000;"> This is  Ni Hsuan's homepage !</h1>
+<!This is a paragraph.</!>
+<p>National Tsing Hua University, Education</p>
+<! src="avatar.png" alt="Avatar" style="width:200px">
+<img class="_11kf img" alt="蔡妮軒的大頭貼照" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/78393574_1929601043853114_2695290676312014848_o.jpg?_nc_cat=106&amp;_nc_ohc=kDBoDvdzSUgAQn2PBaJzfRZyMd0zoZnz1ZJvCwLO_F3N_GoLy_GxCYbsg&amp;_nc_ht=scontent-hkg3-1.xx&amp;_nc_tp=1&amp;oh=570cdee421c9ec4bd011ddb0eaba1548&amp;oe=5E980F24">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div class="subheading mb-3">
+        <ul class="fa-ul">
+          <li><i class="fa-li fas fa-user"></i>Hi, I'm Ni Hsuan Tsai, a girl from New Taipei City.<br>
+          Aside from my study, in my freetime, I love dancing and drawing.<br> </li>
+          
+          <li><i class="fa-li fas fa-laptop"></i>If you have more questions about me, please contact me.
+          </li>
+          <li><i class="fa-li fas fa-envelope"></i> <a href="ya10007170550@gmail.com" title="click here for my e-mail"> click here for my e-mail</a></li>
+        </ul>
+      </div>
+      
+      
+<p style="color:slateblue;"> Maybe these links can make you know more about me ~ </p>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+<div class="subheading mb-3">
+        <ol class="fa-ul">
+          <li><i class="fa-li fas fa-user"></i><a href="https://hackmd.io/@nihhhsuan">https://hackmd.io/@nihhhsuan</a></li>
+          <li><i class="fa-li fas fa-laptop"></i><a href="https://github.com/ni-hsuan">https://github.com/ni-hsuan</a>
+          </li>
+          
+        </ol>
+      </div>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DDR844/username.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
