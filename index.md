@@ -1,4 +1,3 @@
-
 <html>
 <head>
 <title>Page Title</title>
@@ -33,9 +32,9 @@ body {
   </script>
 <h1 style=" color: white;
 text-shadow: 2px 2px 4px #000000;"> This is  Ni Hsuan's homepage !</h1>
-<!This is a paragraph.</!>
+<p>This is a paragraph</p>
 <p>National Tsing Hua University, Education</p>
-<! src="avatar.png" alt="Avatar" style="width:200px">
+<src="avatar.png" alt="Avatar" style="width:200px">
 <img class="_11kf img" alt="蔡妮軒的大頭貼照" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/78393574_1929601043853114_2695290676312014848_o.jpg?_nc_cat=106&amp;_nc_ohc=kDBoDvdzSUgAQn2PBaJzfRZyMd0zoZnz1ZJvCwLO_F3N_GoLy_GxCYbsg&amp;_nc_ht=scontent-hkg3-1.xx&amp;_nc_tp=1&amp;oh=570cdee421c9ec4bd011ddb0eaba1548&amp;oe=5E980F24">
 
 <div class="subheading mb-3">
